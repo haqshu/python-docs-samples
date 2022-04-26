@@ -23,7 +23,7 @@ from airflow.operators import bash
 YESTERDAY = datetime.datetime.now() - datetime.timedelta(days=1)
 
 default_args = {
-    "owner": "Composer Example 2",
+    "owner": "Composer Example 2 mod",
     "depends_on_past": False,
     "email": [""],
     "email_on_failure": False,
